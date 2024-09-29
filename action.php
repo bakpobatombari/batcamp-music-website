@@ -4,6 +4,6 @@
     if($username == "batom" && $password == "1212"){
         echo "valid";
     }else{
-        include('./music.php');
+        header("Location: ./index.html");
     }
 ?>
