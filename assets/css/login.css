@@ -1,0 +1,42 @@
+body{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+.logvideo{
+    width: 100%;
+    top:0;
+    position: fixed;
+    height: fit-content;
+    padding: 0;
+}
+.login{
+    position: fixed;
+    top:4rem;
+    height: 70vh;
+    background: #88888860;
+    border-radius: 5%;
+    width: 60%;
+    z-index: 10;
+    color:white;
+    margin: auto;
+    display:flex;
+    justify-content:center;
+    flex-direction:column;
+    align-items:center;
+}
+.login input[type="text"],input[type="password"]{
+    height:30px;
+    width:60%;
+    display:block;
+    border-radius:5px;
+    background: transparent;
+    color: white;
+    text-align: center;
+}
+input{
+    margin-bottom:1rem;
+}
